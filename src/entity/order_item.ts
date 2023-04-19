@@ -10,8 +10,9 @@ export default class OrderItem{
         this._id = id;
         this._name = name;
         this._price = price;
-        this._quantity = quantity;
         this._productId = productId;
+        this._quantity = quantity;
+       
     }
 
     get price() : number { 

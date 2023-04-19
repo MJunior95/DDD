@@ -29,7 +29,7 @@ describe("Order unit testes", () =>{
        let total = order.total();
 
        expect(total).toBe(200);
-
+       
        const order2 = new Order("o1", "c1", [item1,item2]);
        total = order2.total();
        expect(total).toBe(600);      
