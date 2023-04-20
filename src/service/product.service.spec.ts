@@ -1,5 +1,5 @@
 import Product from "../entity/product";
-import ProductService from "./product.server";
+import ProductService from "./product.service";
 
 describe ("Product service unit testes", () =>{
 
